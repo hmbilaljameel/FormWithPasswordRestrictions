@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    height: 100vh;
+    width: 350px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 10px 20px 3px grey;
+    padding: 25px;
+}
+.regis {
+    padding-bottom: 20px;
+}
+.userName {
+    padding-bottom: 0px;
+
+}
+.upara {
+    padding-bottom: 8px;
+
+    
+}
+.pass {
+    padding-bottom: 8px;
+}
+.confirm {
+    padding-bottom: 8px;
+}
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+.restriction p {
+    padding: 5px;
+}
+.password-check {
+    color: grey;
+}
+.btn {
+    color: blue;
+    width: 100%;
+    border-radius: 4px;
+}

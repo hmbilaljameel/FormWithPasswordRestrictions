@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex In JS</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <div class="form">
+            <h1 class="regis">Registration Form</h1>
+            <div class="userName">
+            <p class="upara">User Name</p>
+            <input type="text" placeholder="User Name">
+        </div>
+        <div class="password">
+            <p class="pass">Password</p>
+            <input type="password" placeholder="Password" onkeyup="passCheck(this.value)">
+        </div>
+        <div class="confirmPassword">
+            <p class="confirm">Confirm Password</p>
+            <input type="password" placeholder="confirmed password">
+        </div>
+        <div class="restriction">
+            <p class="password-check">8 characters</p>
+            <p class="password-check">1 lower case character</p>
+            <p class="password-check">1 upper case character</p>
+            <p class="password-check">1 numerical character</p>
+            <p class="password-check">1 special character</p>
+        </div>
+        <button type="submit" value="submit" class="btn">Submit</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
